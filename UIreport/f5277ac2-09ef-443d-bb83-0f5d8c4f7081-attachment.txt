@@ -1,0 +1,3 @@
+2025-07-27 01-16-55 - LoginPage.py - LoginPage - login_input_value - 23 - [32mINFO[0m - 输入用户名为：william
+2025-07-27 01-16-55 - LoginPage.py - LoginPage - login_input_value - 23 - [32mINFO[0m - 输入密码为：william
+2025-07-27 01-16-55 - LoginPage.py - LoginPage - click_login - 33 - [32mINFO[0m - 点击登录

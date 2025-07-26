@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from base.LoginBase import LoginBase
 from base.ObjectMap import ObjectMap
 from common.yaml_config import GetConf
+from logs.log import log
 
 class LoginPage(LoginBase, ObjectMap):
 
@@ -19,6 +20,7 @@ class LoginPage(LoginBase, ObjectMap):
         这里的LoginPage就是用来操作元素的
         登陆页输入值
         """
+        log.info("输入" + input_placeholder + "为：" + str(input_value))
         input_xpath= self.login_input(input_placeholder)
         return self.element_fill_value(driver, By.XPATH,input_xpath,input_value)
         # return driver.find_element_by_xpath(input_xpath).send_keys(input_value)
@@ -28,6 +30,7 @@ class LoginPage(LoginBase, ObjectMap):
        点击登陆
 
        """
+       log.info("点击登录")
        button_xpath = self.login_button(button_name)
 
        # return  driver.find_element_by_xpath(button_xpath).click()
