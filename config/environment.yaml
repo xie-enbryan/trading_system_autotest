@@ -5,6 +5,9 @@ user:
   william:
     username: william
     password: 1234abcd!
+  failure:
+    username: william
+    password: william
 mysql:
   db: autotest
   host: localhost

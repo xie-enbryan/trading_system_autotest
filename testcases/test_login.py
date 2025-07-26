@@ -5,12 +5,18 @@
 
 from time import sleep
 import allure
+import pytest
 
 # from config.driver_config import DriverConfig
 
 from page.LoginPage import LoginPage
 
+from common.report_add_img import add_img_2_report
+
 class TestLogin:
+    @pytest.mark.login
+    @allure.feature("登录")
+    @allure.description("登录")
     def test_login(self, driver):
         # driver = DriverConfig().drvier_config()
         # 自己的服务器地址是：http://119.91.206.145/login?url=%2F
@@ -24,8 +30,9 @@ class TestLogin:
         # LoginPage().click_login(driver, "登录")
         # sleep(3)
         with allure.step("登录"):
-            LoginPage().login(driver,"william")
+            LoginPage().login(driver,"failure")
             sleep(3)
+            add_img_2_report(driver, "登录")
         # driver.quit()
 
 

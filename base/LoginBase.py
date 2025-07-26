@@ -20,6 +20,13 @@ class LoginBase:
         return "//span[text()='"+button_name+"']/parent::button"
         # return f"//span[@text()='{button_name}']/parent::button"
 
+    def login_success(self):
+        """
+        登录成功
+        :return:
+        """
+        return "//p[text()='登录成功']"
+
 # if __name__ == '__main__':
 #     # print(LoginBase().Login_input("密码"))
 #     print(LoginBase().login_button("登陆"))
