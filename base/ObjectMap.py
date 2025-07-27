@@ -2,6 +2,8 @@
 # coding=utf-8
 # @Time: 2025/7/20 15:01
 # @Author: Enbryan Xie
+import datetime
+import os.path
 import time
 from time import sleep
 from selenium import webdriver
@@ -423,6 +425,33 @@ class ObjectMap:
         confidence = FindImg().get_confidence(source_img_path, search_img_path)
 
         return confidence
+
+    def element_screenshot(self, driver, locate_type, locator_expression):
+
+        """
+        元素截图
+        :param driver:
+        :param locate_type:
+        :param locator_expression:
+        :return:
+        """
+        # 先创建截图的文件名字
+        ele_name = datetime.datetime.now().strftime("%Y%m%d%H%M%S") + ".png"
+
+        # 再创建并获取文件的保存路径
+        ele_img_dir_path = get_project_path() + sep(["img", "ele_img"], add_sep_before=True, add_sep_after=True)
+
+        # 如果文件夹不存在， 则进行创建
+        if not os.path.exists(ele_img_dir_path):
+            os.mkdir(ele_img_dir_path)
+
+        # 拼接成一个完整的路径
+        ele_img_path = ele_img_dir_path + ele_name
+
+        # 对页面进行截图
+        self.element_get(driver, locate_type, locator_expression).screenshot(ele_img_path)
+
+        return ele_img_path
 
 
 

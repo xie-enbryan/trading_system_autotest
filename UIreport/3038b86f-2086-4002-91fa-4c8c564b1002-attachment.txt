@@ -1,0 +1,4 @@
+2025-07-27 18-30-05 - LoginPage.py - LoginPage - login - 51 - [32mINFO[0m - 跳转登录页
+2025-07-27 18-30-13 - LoginPage.py - LoginPage - login_input_value - 26 - [32mINFO[0m - 输入用户名为：william
+2025-07-27 18-30-13 - LoginPage.py - LoginPage - login_input_value - 26 - [32mINFO[0m - 输入密码为：1234abcd!
+2025-07-27 18-30-13 - LoginPage.py - LoginPage - click_login - 36 - [32mINFO[0m - 点击登录

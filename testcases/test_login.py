@@ -30,7 +30,7 @@ class TestLogin:
         # LoginPage().click_login(driver, "登录")
         # sleep(3)
         with allure.step("登录"):
-            LoginPage().login(driver,"failure")
+            LoginPage().login(driver,"william", need_captcha=False)
             sleep(3)
             add_img_2_report(driver, "登录")
         # driver.quit()
