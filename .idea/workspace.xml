@@ -5,16 +5,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b52fe6c1-05f4-48af-a3f9-7d0c0207c9a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/mysql_operate.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/common/ocr_identify.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/common/test.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab/api_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/HomePage.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcases/test_captcha_login.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcases/test_login_by_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_mysql_conn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/00a84d94-c964-46be-a952-a8b57e646988-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/013d3fa2-6aea-472b-8e31-3038254d76a5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/02556a4e-ef63-49ff-8819-f4eea2dfff59-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/033f77fe-69d0-4959-8166-a111dca34884-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/055bbec8-e176-4716-92dc-1701db58d315-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/0687afd2-30e9-4aea-9d35-6a8df58889df-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/0f35e5aa-e5a9-41c3-9720-3e5077c4d22c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/1055f2cb-0897-45ff-8895-c561665f1d60-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/12e2a0b2-f4c1-48bb-aa2d-336ac746daef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/134821ea-3424-4b9b-88b0-cb7db3f2e41a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/1499264e-20bf-46c3-be1b-830d86af89ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/15b830cc-ed7d-4acc-87ae-5ea9bee918bb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/1a19b96e-3bbb-434e-90b7-71134af90929-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/1bbed06e-e038-48f0-9f8f-6abbd0452e5f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/1fc5677c-b5ff-4079-8602-738ef0c78ca7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/23fefae3-1315-4d0c-a7de-fb7a3e45d9ac-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/2a3b77c7-7eb4-44ea-b496-b1092d7479dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/2b2b5b6a-c5d1-4069-bb92-329254bed5e4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/3184e49e-7305-4056-acc0-fb1a87b1f9f1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/3fe2495f-3fcb-42b4-a114-875448ed4b3a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/400f6764-5957-4acd-970f-25dbd7370ccb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/4026cdcd-b1b6-4002-b858-af7b1f1a5751-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/463975ee-8f95-4908-a4cd-363c092802b6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/4ee85a0e-ddb1-4bcf-ae99-86cd25d26280-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/62f17a76-b3d2-4acb-847e-7d6bd2279048-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/65a2343a-cc26-4c3a-8eb2-28a9005c204c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/696fa177-0565-49a6-8298-ddb717f6ccfd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/6edab41f-c509-448e-a4ec-13a25c17675c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/70eabb44-43e7-4923-8622-3a8af62c2be7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/7202a2f0-7669-4795-a214-f0ed6970ea27-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/7758cfeb-e287-4248-b81b-3b4154b6df7a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/7cffd5a1-28c4-4978-9499-87f493bce9e3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/803cc992-1391-4c33-9939-66cee22c5aa0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/81ead2d4-aa07-4e9e-bf90-1f0b7317e855-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/83630dbb-cb9f-48fd-b405-7573ab478c06-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/895bb0ef-c38d-4584-8626-d86d63d48983-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/8e3c5935-2d3d-4033-ab2a-0f8b73e7c7e9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/937812ba-bb2c-4112-b0bf-f4bf7a767ed8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/94c0e0e7-e667-4090-a74a-21556e3a103a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/95716736-decb-4454-9afb-eebf40f36ed2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/983fdc9a-cc3f-4f4b-b8d6-ea414e9c62b2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/9e6e954c-4bd8-4f41-b134-65072f12df50-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/a908eb09-2cf7-4e6e-9661-b6e15ddd9a6f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/ab7f5459-94bb-42be-b706-155e07dd4774-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/ac356682-c0a0-459c-bf8e-5c44176fb9c4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/b065c861-5df4-4e18-97af-afc69599417e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/b27909b6-ef16-4931-b7bb-f2a71117a8fb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/b308719c-b2aa-4af3-b356-8911872e9c27-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/b3755249-54f6-4264-bf70-98ce4e42767b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/b3cc843b-1c6b-4876-aa36-8e864088c579-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/bad47d79-b548-4fde-af30-a0eaed8bb16d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/c0193802-063f-4d37-bdd9-c58960584edf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/c76fd22f-1f40-445b-9177-8b243801fb45-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/c7b9d09d-3cbd-4cbe-8b81-c3d1d59035ef-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/cc325990-1589-426c-a573-4c108a5f4835-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/cc3dda65-7bcf-4dcc-87e3-279a990c201e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/d2e3462d-c858-4741-a109-aa5ba6c714a4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/dc8d49bd-87a8-4e5d-bb72-61ee7d3940f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/e5d10cd8-9eb0-4921-9c93-b0c0a603d8ff-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/e5fa7797-1178-44b6-a6c9-b2da8b1f8d6e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/e61a31cf-52ab-4f0c-aeba-e8230ce6e467-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/ea24fa4a-7ab9-40e9-a15d-3bb75e19f147-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/ec2bd822-6323-4dc8-ab3a-12a273e2d5d5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/ef9cbbba-873c-43fa-825c-5a09c31997a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/f9baf026-00db-4227-aba7-8df9aa867025-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/=UIreport/faaafed8-b9ee-42c2-9b16-2e1f476242ef-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/Homebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/Homebase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/LoginBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/LoginBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/ObjectMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/ObjectMap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/report_add_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/report_add_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/yaml_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/yaml_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507270111.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507270116.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271821.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271822.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271823.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271824.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271827.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271828.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271830.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271832.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271836.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272019.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272021.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272023.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272025.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272027.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272028.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272030.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272032.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/page/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/LoginPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test.log" afterDir="false" />
@@ -297,6 +389,7 @@
     "Python.api_login.executor": "Run",
     "Python.driver_config.executor": "Run",
     "Python.log.executor": "Run",
+    "Python.mysql_operate.executor": "Run",
     "Python.ocr_identify.executor": "Run",
     "Python.test_login.executor": "Run",
     "Python.tools.executor": "Run",
@@ -309,7 +402,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_login_by_api.TestLoginByApi.test_login_by_api">
+  <component name="RunManager" selected="Python.mysql_operate">
     <configuration name="api_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_system_autotest" />
       <option name="ENV_FILES" value="" />
@@ -324,28 +417,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab/api_login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="log" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="trading_system_autotest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logs/log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,7 +447,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ocr_identify" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mysql_operate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_system_autotest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -389,7 +460,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/ocr_identify.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/mysql_operate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yaml_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="trading_system_autotest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/yaml_config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -430,11 +523,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mysql_operate" />
+        <item itemvalue="Python.yaml_config" />
         <item itemvalue="Python tests.Python tests for test_login_by_api.TestLoginByApi.test_login_by_api" />
         <item itemvalue="Python.api_login" />
         <item itemvalue="Python tests.Python tests for test_login_by_api.TestLoginByApi" />
-        <item itemvalue="Python.ocr_identify" />
-        <item itemvalue="Python.log" />
       </list>
     </recent_temporary>
   </component>

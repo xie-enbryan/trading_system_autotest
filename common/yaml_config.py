@@ -41,10 +41,17 @@ class GetConf:
             self.env = yaml.load(env_file, Loader=yaml.FullLoader)
             return self.env["url"]
 
+    def get_mysql_config(self):
+        """
+        获取config里mysql的配置信息
+        :return:
+        """
+        return self.env["mysql"]
+
 if __name__ == '__main__':
     # print(GetConf().get_username_password())
     # print(GetConf().get_mysql_data())
 
     # print(GetConf().get_utl())
-    print(GetConf().get_username_password("jay"))
+    print(GetConf().get_mysql_config())
 

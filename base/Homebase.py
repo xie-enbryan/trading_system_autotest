@@ -33,3 +33,10 @@ class HomeBase:
         首页用户头像大图二
         """
         return "//span[text()='我的地址']/ancestor::div[@class='first_card']/div[contains(@class, 'user_avatar')]/div/div"
+
+    def user_balance(self):
+        """
+        用户首页-- 账户余额的元素定位
+        :return:
+        """
+        return "//th[text()='账户余额']/parent::tr/following-sibling::tr/td[1]"
