@@ -15,4 +15,4 @@ mysql:
   port: 3306
   user: root
 
-url: http://www.tcpjwtester.top/login?url=%2F
+url: http://www.tcpjwtester.top

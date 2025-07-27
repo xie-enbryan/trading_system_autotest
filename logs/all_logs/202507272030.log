@@ -1,0 +1,4 @@
+2025-07-27 20:30:10 - LoginPage.py - LoginPage - api_login - 92 - INFO - 跳转到登录页
+2025-07-27 20:30:19 - LoginPage.py - LoginPage - api_login - 95 - INFO - 用户名：jay
+2025-07-27 20:30:19 - LoginPage.py - LoginPage - api_login - 96 - INFO - 密码：123456
+2025-07-27 20:30:19 - LoginPage.py - LoginPage - api_login - 103 - INFO - 通过api登录
