@@ -1,0 +1,1 @@
+Results from image matching: {'result': (1200.0, 672.0), 'rectangle': ((0, 0), (0, 1344), (2400, 0), (2400, 1344)), 'confidence': 0.983829140663147}

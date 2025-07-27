@@ -9,7 +9,14 @@ from datetime import datetime
 
 
 def get_now_time ():
-    return datetime.datetime.now ()
+    return datetime.now()
+
+def get_now_date_time_str():
+    """
+    将时间转成字符串，
+    :return:
+    """
+    return datetime.now().strftime("%Y%m%d%H%M%S")
 
 def get_project_path ():
     """
@@ -50,5 +57,5 @@ if __name__ == '__main__':
     # print(get_project_path())
     # print(get_abs_path())
 
-    print(get_img_path("商品图片1.jpg"))
+    print(get_now_date_time_str())
 

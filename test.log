@@ -1,4 +1,5 @@
-INFO     自动化测试:LoginPage.py:51 跳转登录页
-INFO     自动化测试:LoginPage.py:26 输入用户名为：william
-INFO     自动化测试:LoginPage.py:26 输入密码为：1234abcd!
-INFO     自动化测试:LoginPage.py:36 点击登录
+INFO     自动化测试:LoginPage.py:53 跳转登录页
+INFO     自动化测试:LoginPage.py:28 输入用户名为：william
+INFO     自动化测试:LoginPage.py:28 输入密码为：1234abcd!
+INFO     自动化测试:LoginPage.py:38 点击登录
+INFO     自动化测试:LoginPage.py:124 登录后判断头像

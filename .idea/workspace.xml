@@ -85,7 +85,9 @@
       <change beforePath="$PROJECT_DIR$/base/Homebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/Homebase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/LoginBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/LoginBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/ObjectMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/ObjectMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/find_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/find_img.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/report_add_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/report_add_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/yaml_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/yaml_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all_logs/202507270111.log" beforeDir="false" />
@@ -111,6 +113,7 @@
       <change beforePath="$PROJECT_DIR$/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_login_img_assert.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_login_img_assert.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-23.0.1.dist-info/INSTALLER" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-23.0.1.dist-info/LICENSE.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-23.0.1.dist-info/METADATA" beforeDir="false" />
@@ -388,6 +391,7 @@
     "Python tests.Python tests for test_login_by_api.TestLoginByApi.test_login_by_api.executor": "Run",
     "Python.api_login.executor": "Run",
     "Python.driver_config.executor": "Run",
+    "Python.find_img.executor": "Run",
     "Python.log.executor": "Run",
     "Python.mysql_operate.executor": "Run",
     "Python.ocr_identify.executor": "Run",
@@ -402,8 +406,8 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.mysql_operate">
-    <configuration name="api_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.find_img">
+    <configuration name="find_img" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_system_autotest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -412,11 +416,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab/api_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/find_img.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -469,6 +473,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="trading_system_autotest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="yaml_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_system_autotest" />
       <option name="ENV_FILES" value="" />
@@ -491,21 +517,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_login_by_api.TestLoginByApi" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="trading_system_autotest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login_by_api.TestLoginByApi&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_login_by_api.TestLoginByApi.test_login_by_api" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="trading_system_autotest" />
       <option name="ENV_FILES" value="" />
@@ -523,11 +534,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.find_img" />
+        <item itemvalue="Python.tools" />
         <item itemvalue="Python.mysql_operate" />
         <item itemvalue="Python.yaml_config" />
         <item itemvalue="Python tests.Python tests for test_login_by_api.TestLoginByApi.test_login_by_api" />
-        <item itemvalue="Python.api_login" />
-        <item itemvalue="Python tests.Python tests for test_login_by_api.TestLoginByApi" />
       </list>
     </recent_temporary>
   </component>
