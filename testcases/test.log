@@ -4,9 +4,38 @@ INFO     自动化测试:LoginPage.py:96 密码：123456
 INFO     自动化测试:LoginPage.py:103 通过api登录
 INFO     自动化测试:LoginPage.py:110 将token写入到sessionStorage中
 INFO     自动化测试:LoginPage.py:114 跳转主页
+INFO     自动化测试:LoginPage.py:53 跳转登录页
+INFO     自动化测试:LoginPage.py:28 输入用户名为：william
+INFO     自动化测试:LoginPage.py:28 输入密码为：1234abcd!
+INFO     自动化测试:LoginPage.py:38 点击登录
+INFO     自动化测试:TradingMarketPage.py:24 搜索宝贝输入框输入交易流测试20250728233929
+INFO     自动化测试:TradingMarketPage.py:36 点击搜索按钮
+INFO     自动化测试:TradingMarketPage.py:49 点击交易流测试20250728233929的商品卡片
+INFO     自动化测试:TradingMarketPage.py:59 点击我想要
+INFO     自动化测试:TradingMarketPage.py:72 点击收货地址
+INFO     自动化测试:TradingMarketPage.py:91 选择第1个收货地址
+INFO     自动化测试:TradingMarketPage.py:102 点击确定按钮
+INFO     自动化测试:OrderPage.py:30 订单的标题为交易流测试20250728233929, 点击订单的操作按钮去支付
+INFO     自动化测试:OrderPage.py:40 点击订单操作按钮后的弹框的确认按钮
+INFO     自动化测试:LoginPage.py:92 跳转到登录页
+INFO     自动化测试:LoginPage.py:95 用户名：jay
+INFO     自动化测试:LoginPage.py:96 密码：123456
+INFO     自动化测试:LoginPage.py:103 通过api登录
+INFO     自动化测试:LoginPage.py:110 将token写入到sessionStorage中
+INFO     自动化测试:LoginPage.py:114 跳转主页
+INFO     自动化测试:OrderPage.py:30 订单的标题为交易流测试20250728233929, 点击订单的操作按钮去发货
+INFO     自动化测试:OrderPage.py:51 点击物流
+INFO     自动化测试:OrderPage.py:62 选择物流公司
+INFO     自动化测试:OrderPage.py:73 填入物流单号123456789
+INFO     自动化测试:OrderPage.py:40 点击订单操作按钮后的弹框的确认按钮
 INFO     自动化测试:LoginPage.py:92 跳转到登录页
 INFO     自动化测试:LoginPage.py:95 用户名：william
 INFO     自动化测试:LoginPage.py:96 密码：1234abcd!
 INFO     自动化测试:LoginPage.py:103 通过api登录
 INFO     自动化测试:LoginPage.py:110 将token写入到sessionStorage中
 INFO     自动化测试:LoginPage.py:114 跳转主页
+INFO     自动化测试:OrderPage.py:30 订单的标题为交易流测试20250728233929, 点击订单的操作按钮去确认收货
+INFO     自动化测试:OrderPage.py:40 点击订单操作按钮后的弹框的确认按钮
+INFO     自动化测试:OrderPage.py:30 订单的标题为交易流测试20250728233929, 点击订单的操作按钮去评价
+INFO     自动化测试:OrderPage.py:84 评价星级: 5星
+INFO     自动化测试:OrderPage.py:94 评价完后点击确定

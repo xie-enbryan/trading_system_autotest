@@ -1,0 +1,41 @@
+2025-07-28 23:39:15 - LoginPage.py - LoginPage - api_login - 92 - INFO - 跳转到登录页
+2025-07-28 23:39:19 - LoginPage.py - LoginPage - api_login - 95 - INFO - 用户名：jay
+2025-07-28 23:39:19 - LoginPage.py - LoginPage - api_login - 96 - INFO - 密码：123456
+2025-07-28 23:39:19 - LoginPage.py - LoginPage - api_login - 103 - INFO - 通过api登录
+2025-07-28 23:39:20 - LoginPage.py - LoginPage - api_login - 110 - INFO - 将token写入到sessionStorage中
+2025-07-28 23:39:22 - LoginPage.py - LoginPage - api_login - 114 - INFO - 跳转主页
+2025-07-28 23:39:47 - LoginPage.py - LoginPage - login - 53 - INFO - 跳转登录页
+2025-07-28 23:39:47 - LoginPage.py - LoginPage - login_input_value - 28 - INFO - 输入用户名为：william
+2025-07-28 23:39:47 - LoginPage.py - LoginPage - login_input_value - 28 - INFO - 输入密码为：1234abcd!
+2025-07-28 23:39:47 - LoginPage.py - LoginPage - click_login - 38 - INFO - 点击登录
+2025-07-28 23:39:56 - TradingMarketPage.py - TradingMarketPage - input_search_input - 24 - INFO - 搜索宝贝输入框输入交易流测试20250728233929
+2025-07-28 23:39:56 - TradingMarketPage.py - TradingMarketPage - click_search - 36 - INFO - 点击搜索按钮
+2025-07-28 23:39:59 - TradingMarketPage.py - TradingMarketPage - click_product_card - 49 - INFO - 点击交易流测试20250728233929的商品卡片
+2025-07-28 23:40:03 - TradingMarketPage.py - TradingMarketPage - click_i_want - 59 - INFO - 点击我想要
+2025-07-28 23:40:07 - TradingMarketPage.py - TradingMarketPage - click_address - 72 - INFO - 点击收货地址
+2025-07-28 23:40:09 - TradingMarketPage.py - TradingMarketPage - select_detail_address - 91 - INFO - 选择第1个收货地址
+2025-07-28 23:40:12 - TradingMarketPage.py - TradingMarketPage - click_bottom_button - 102 - INFO - 点击确定按钮
+2025-07-28 23:40:16 - OrderPage.py - OrderPage - click_order_operation - 30 - INFO - 订单的标题为交易流测试20250728233929, 点击订单的操作按钮去支付
+2025-07-28 23:40:18 - OrderPage.py - OrderPage - click_order_operation_confirm - 40 - INFO - 点击订单操作按钮后的弹框的确认按钮
+2025-07-28 23:40:20 - LoginPage.py - LoginPage - api_login - 92 - INFO - 跳转到登录页
+2025-07-28 23:40:20 - LoginPage.py - LoginPage - api_login - 95 - INFO - 用户名：jay
+2025-07-28 23:40:20 - LoginPage.py - LoginPage - api_login - 96 - INFO - 密码：123456
+2025-07-28 23:40:20 - LoginPage.py - LoginPage - api_login - 103 - INFO - 通过api登录
+2025-07-28 23:40:20 - LoginPage.py - LoginPage - api_login - 110 - INFO - 将token写入到sessionStorage中
+2025-07-28 23:40:22 - LoginPage.py - LoginPage - api_login - 114 - INFO - 跳转主页
+2025-07-28 23:40:30 - OrderPage.py - OrderPage - click_order_operation - 30 - INFO - 订单的标题为交易流测试20250728233929, 点击订单的操作按钮去发货
+2025-07-28 23:40:32 - OrderPage.py - OrderPage - click_delivery_logistics - 51 - INFO - 点击物流
+2025-07-28 23:40:33 - OrderPage.py - OrderPage - click_select_logistics - 62 - INFO - 选择物流公司
+2025-07-28 23:40:34 - OrderPage.py - OrderPage - input_logistics_order_no - 73 - INFO - 填入物流单号123456789
+2025-07-28 23:40:35 - OrderPage.py - OrderPage - click_order_operation_confirm - 40 - INFO - 点击订单操作按钮后的弹框的确认按钮
+2025-07-28 23:40:40 - LoginPage.py - LoginPage - api_login - 92 - INFO - 跳转到登录页
+2025-07-28 23:40:40 - LoginPage.py - LoginPage - api_login - 95 - INFO - 用户名：william
+2025-07-28 23:40:40 - LoginPage.py - LoginPage - api_login - 96 - INFO - 密码：1234abcd!
+2025-07-28 23:40:40 - LoginPage.py - LoginPage - api_login - 103 - INFO - 通过api登录
+2025-07-28 23:40:40 - LoginPage.py - LoginPage - api_login - 110 - INFO - 将token写入到sessionStorage中
+2025-07-28 23:40:42 - LoginPage.py - LoginPage - api_login - 114 - INFO - 跳转主页
+2025-07-28 23:40:50 - OrderPage.py - OrderPage - click_order_operation - 30 - INFO - 订单的标题为交易流测试20250728233929, 点击订单的操作按钮去确认收货
+2025-07-28 23:40:51 - OrderPage.py - OrderPage - click_order_operation_confirm - 40 - INFO - 点击订单操作按钮后的弹框的确认按钮
+2025-07-28 23:40:53 - OrderPage.py - OrderPage - click_order_operation - 30 - INFO - 订单的标题为交易流测试20250728233929, 点击订单的操作按钮去评价
+2025-07-28 23:40:54 - OrderPage.py - OrderPage - click_evaluation - 84 - INFO - 评价星级: 5星
+2025-07-28 23:40:56 - OrderPage.py - OrderPage - click_evaluation_confirm - 94 - INFO - 评价完后点击确定

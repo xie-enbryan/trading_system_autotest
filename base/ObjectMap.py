@@ -460,6 +460,20 @@ class ObjectMap:
 
         return ele_img_path
 
+    def scroll_to_element(self, driver, locate_type, locator_expression):
+        """
+        滚动到指定元素
+        :param driver:
+        :param locate_type:
+        :param locator_expression:
+        :return:
+        """
+        ele = self.element_get(driver, locate_type, locator_expression)
+
+        driver.execute_script("arguments[0].scrollIntoView()", ele)
+
+        return True
+
 
 
 

@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b52fe6c1-05f4-48af-a3f9-7d0c0207c9a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/base/TradingMarketBase.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/common/mysql_operate.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/common/ocr_identify.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/common/test.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lab/api_login.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/page/HomePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/TradingMarketPage.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcases/test_captcha_login.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcases/test_login_by_api.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testcases/test_mysql_conn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_trading_flow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/=UIreport/00a84d94-c964-46be-a952-a8b57e646988-attachment.txt" beforeDir="false" />
@@ -85,11 +88,13 @@
       <change beforePath="$PROJECT_DIR$/base/Homebase.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/Homebase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/LoginBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/LoginBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/ObjectMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/ObjectMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/OrderBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/OrderBase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/find_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/find_img.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/report_add_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/report_add_img.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/yaml_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/yaml_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/source_img/head_img.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/source_img/head_img.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all_logs/202507270111.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all_logs/202507270116.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all_logs/202507271821.log" beforeDir="false" />
@@ -110,6 +115,7 @@
       <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272030.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/all_logs/202507272032.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/page/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/OrderPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/OrderPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_login.py" afterDir="false" />
@@ -389,6 +395,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests for test_login_by_api.TestLoginByApi.executor": "Run",
     "Python tests.Python tests for test_login_by_api.TestLoginByApi.test_login_by_api.executor": "Run",
+    "Python tests.Python tests for test_trading_flow.TestTradingFlow.test_trading_flow.executor": "Run",
+    "Python tests.Python tests in test_trading_flow.py.executor": "Run",
+    "Python.TradingMarketBase.executor": "Run",
     "Python.api_login.executor": "Run",
     "Python.driver_config.executor": "Run",
     "Python.find_img.executor": "Run",
@@ -406,7 +415,29 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.find_img">
+  <component name="RunManager" selected="Python tests.Python tests for test_trading_flow.TestTradingFlow.test_trading_flow">
+    <configuration name="TradingMarketBase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="trading_system_autotest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/TradingMarketBase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="find_img" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_system_autotest" />
       <option name="ENV_FILES" value="" />
@@ -451,28 +482,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_operate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="trading_system_autotest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/mysql_operate.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="trading_system_autotest" />
       <option name="ENV_FILES" value="" />
@@ -495,29 +504,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="yaml_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="trading_system_autotest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/yaml_config.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_login_by_api.TestLoginByApi.test_login_by_api" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_trading_flow.TestTradingFlow.test_trading_flow" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="trading_system_autotest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -528,17 +515,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login_by_api.TestLoginByApi.test_login_by_api&quot;" />
+      <option name="_new_target" value="&quot;test_trading_flow.TestTradingFlow.test_trading_flow&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_trading_flow.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="trading_system_autotest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_trading_flow.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_trading_flow.TestTradingFlow.test_trading_flow" />
+        <item itemvalue="Python tests.Python tests in test_trading_flow.py" />
+        <item itemvalue="Python.TradingMarketBase" />
         <item itemvalue="Python.find_img" />
         <item itemvalue="Python.tools" />
-        <item itemvalue="Python.mysql_operate" />
-        <item itemvalue="Python.yaml_config" />
-        <item itemvalue="Python tests.Python tests for test_login_by_api.TestLoginByApi.test_login_by_api" />
       </list>
     </recent_temporary>
   </component>
