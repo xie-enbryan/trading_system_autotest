@@ -15,4 +15,22 @@ mysql:
   port: 3306
   user: root
 
+redis:
+  host: 119.91.206.145
+  port: 6379
+  db: 0
+
+dingding_group:
+  webhook: https://oapi.dingtalk.com/robot/send?access_token=93f1828f8560475808b0806cd4922d5afceb31af1469699a17811a7d32ee93e8
+
+qywx_group:
+  webhook: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=1b71a920-3151-4b46-bd17-a893027e00df
+
+
+
+
+jenkins:
+  url: https://localhost:8080
+
+
 url: http://www.tcpjwtester.top

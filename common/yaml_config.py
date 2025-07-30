@@ -48,10 +48,39 @@ class GetConf:
         """
         return self.env["mysql"]
 
+    def get_redis(self):
+        """
+        获取redis的数据
+        :return:
+        """
+        return self.env["redis"]
+
+    def get_dingdign_webhook(self):
+        """
+        获取钉钉群组的机器人链接
+        :return:
+        """
+        return self.env["dingding_group"]["webhook"]
+
+    def get_jenkins(self):
+        """
+        获取jenkins的地址
+        :return:
+        """
+        return self.env["jenkins"]
+
+    def get_qywx_webhook(self):
+        """
+        获取企业微信的webhook
+        :return:
+        """
+        return self.env["qywx_group"]["webhook"]
+
+
 if __name__ == '__main__':
     # print(GetConf().get_username_password())
     # print(GetConf().get_mysql_data())
 
     # print(GetConf().get_utl())
-    print(GetConf().get_mysql_config())
+    print(GetConf().get_jenkins())
 
